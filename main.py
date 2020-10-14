@@ -3,7 +3,7 @@
 
 """
 Missionários e Canibais
-Autores: Felipe Maxuel / Humberto Bianchini
+Autores: Felipe Maxsuel / Humberto Bianchini
 """
 
 # Formato = [Missionario, Canibais, Margem]
