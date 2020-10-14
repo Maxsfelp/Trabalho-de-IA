@@ -3,7 +3,7 @@
 
 """
 Missionários e Canibais
-Autores: Felipe Maxusel / Humberto Bianchini
+Autores: Felipe Maxsuel / Humberto Bianchini
 """
 
 
