@@ -1,2 +1,2 @@
 # Trabalho-de-IA
-Trabalho prático de inteligência artificial
+Trabalho prático da disciplina Inteligência Artificial
