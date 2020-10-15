@@ -3,7 +3,7 @@
 
 """
 Missionários e Canibais
-Autores: Felipe Maxusel / Humberto Bianchini
+Autores: Felipe Maxsuel / Humberto Bianchini
 """
 
 
@@ -15,21 +15,20 @@ def main():
     estado_atual = [[3, 3, 1]]
     while estado_final not in estado_atual:
         estado_atual = verifica_estado(possibilidades, estado_atual, ja_visitados)
-        # print(estado_atual)
 
 
 def verifica_estado(p, e, jv):
     novos_estados = []
-    for i in range(len(p)):  # 0 - 1 - 2 - 3 - 4
-        for j in range(len(e)):  # 0 - 1
+    for i in range(len(p)):
+        for j in range(len(e)):
             estado = []
-            for k in range(len(e[j])):  # 0 - 1 - 3
+            for k in range(len(e[j])):
                 if e[j][2] == 1:
                     tmp = e[j][k] - p[i][k]
                 else:
                     tmp = e[j][k] + p[i][k]
                 estado.append(tmp)
-            if ((estado[0] == 3 or estado[0] == estado[1] or estado[0] == 0) and estado not in jv and (estado[1] >= 0 and estado[1] <= 3)):
+            if (estado[0] == 3 or estado[0] == estado[1] or estado[0] == 0) and estado not in jv and (0 <= estado[1] <= 3):
                 novos_estados.append(estado)
                 jv.append(estado)
     print(novos_estados)
