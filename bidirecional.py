@@ -8,7 +8,7 @@ Autores: Felipe Maxsuel / Humberto Bianchini
 
 
 def main():
-    # Formato = [Missionario, Canibais, Margem]
+    # Formato = [Missionarios, Canibais, Margem]
     possibilidades = [[1, 0, 1], [0, 1, 1], [2, 0, 1], [0, 2, 1], [1, 1, 1]]
     estado_atual1 = [[3, 3, 1]]
     estado_atual2 = [[0, 0, 0]]
