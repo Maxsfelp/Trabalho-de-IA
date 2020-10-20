@@ -15,10 +15,12 @@ def main():
     ja_visitados1 = [[3, 3, 1]]
     ja_visitados2 = [[0, 0, 0]]
     while estado_atual1 != estado_atual2:
+        print('Caminho (3, 3, 1): ')
         estado_atual1 = verifica_estado(possibilidades, estado_atual1, ja_visitados1)
         if estado_atual1 == estado_atual2:
             break
         else:
+            print('Caminho (0, 0, 0): ')
             estado_atual2 = verifica_estado(possibilidades, estado_atual2, ja_visitados2)
 
 
