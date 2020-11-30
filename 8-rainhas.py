@@ -62,10 +62,7 @@ if __name__ == '__main__':
 
     print('São', j,'possbilidades')
 
-
     nx.draw(G, with_labels=True, font_weight='bold', width=1)
     plt.show()
-    plt.savefig("grafo.png")
     nx.draw(GC, with_labels=True, font_weight='bold', width=1)
     plt.show()
-    plt.savefig("grafoComplementar.png")
